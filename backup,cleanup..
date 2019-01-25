@@ -11,4 +11,4 @@
 
 #to check the disk space every 10 minutes.
 
-*/10 * * * * /home/ramesh/check-disk-space
+*/10 * * * * /home/sevgi/check-disk-space

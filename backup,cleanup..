@@ -1,0 +1,14 @@
+#to execute the shell script tape-backup at 00:00 on 1st of every month.
+
+@monthly /home/sevgi/suse/bin/tape-backup
+
+
+
+#to do a daily log file cleanup using cleanup-logs shell scriptat 00:00 on every day.
+
+@daily /home/sevgi/arch-linux/bin/cleanup-logs "day started"
+
+
+#to check the disk space every 10 minutes.
+
+*/10 * * * * /home/ramesh/check-disk-space
